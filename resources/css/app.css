@@ -1,0 +1,39 @@
+
+
+
+.marquee {
+    width: 24em;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    color: #fff;
+  }
+
+  .marquee-text {
+    display: inline-block;
+    font-size: 30px;
+    padding-left: 50%;
+    animation: marquee 8s linear infinite;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .carousel-item img {
+    max-width: 100%;
+  }
+
+  .card {
+    border-radius :0 !important;
+  }
+
+  .card-header {
+    border-radius :0 !important;
+  }
+
